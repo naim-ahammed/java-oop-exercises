@@ -1,9 +1,5 @@
 package array;
 
-
-
-
-
 public class Array1 {
 
     public static void main(String[] args) {
@@ -12,7 +8,6 @@ public class Array1 {
 
         num[0]=10;
         num[1]=10;
-
         num[2]=10;
         num[3]=10;
         num[4]=10;
@@ -24,22 +19,18 @@ public class Array1 {
         System.out.println("array size = "+len);
 
 
+        System.out.println("------------------------------------");
+        int[] num2 = new int[5];
+        num2[0]=10;
+        num2[1]=10;
+        num2[2]=10;
+        num2[3]=10;
+        num2[4]=10;
 
-//        int[] num2 = new int[5];
-//
-//        num2[0]=10;
-//        num2[2]=10;
-//        num2[3]=10;
-//        num2[4]=10;
-//
-//        int i;
-//
-//        for (i=0;i<=5;i++){
-//            System.out.println(num[0]);
-//
-//            System.out.println(num2[0]);
-//
-//        }
+        int i;
+        for (i=0; i<num2.length; i++){
+            System.out.println(num2[i]);
+        }
 
 
     }
