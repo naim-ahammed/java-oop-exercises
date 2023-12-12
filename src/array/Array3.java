@@ -5,11 +5,11 @@ public class Array3 {
 
         // two dimensional array in java
         // 1234
-        // 5677
+        // 5678
         int row = 2;
         int colum = 4;
 
-        int [][] twoDArray=new int[row][colum];
+        int [][] twoDArray = new int[row][colum];
 
         twoDArray[0][0]=1;
         twoDArray[0][1]=2;
